@@ -32,9 +32,12 @@ class DangerousDenver
     end
   end
 
+  def resulting_logic(type, incident)
+    !(type == "crime" && incident[:offense_category_id] == "traffic-accident")
+  end
+
   def sorting_logic(incident, key, type)
-    if incident[:"#{key}"] &&
-      !(type == "crime" && incident[:offense_category_id] == "traffic-accident")
+    if incident[:"#{key}"] && resulting_logic(type, incident)
       frequency(incident[:"#{key}"])
     end
   end
