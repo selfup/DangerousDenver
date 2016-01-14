@@ -1,3 +1,7 @@
+### This project taught us about FileIO in javascript and using the lodash library!
+
+It was quite interesting to say the least
+
 # The Most Dangerous Corners in Denver
 
 In this challenge, we'll use open data from the City and County of Denver to figure out which corners and neighborhoods have the highest number of traffic accidents as well as the most incidents of crime for each neighborhood in Denver.
