@@ -1,4 +1,4 @@
-### This project taught us about FileIO in javascript and using the lodash library!
+### This project/tutorial taught us about FileIO in javascript and using the lodash library!
 
 It was quite interesting to say the least
 
